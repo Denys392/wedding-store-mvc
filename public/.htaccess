@@ -1,0 +1,22 @@
+#RewriteEngine On
+#
+## Base del proyecto
+#RewriteBase /MVC-PHP-nov/public
+#
+## No reescribir archivos o carpetas existentes
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#
+## Asegurar que se preserve el prefijo admin/
+#RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+
+# public/.htaccess
+RewriteEngine On
+RewriteBase /MVC-PHP-nov/public/
+
+# Si el archivo o directorio existe, no redirigir
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Redirigir todo a index.php y pasar la ruta como parámetro "url"
+RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]

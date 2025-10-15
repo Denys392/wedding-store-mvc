@@ -1,0 +1,33 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno y configuración sensible
+.env
+.htaccess.lock
+config.php
+database.php
+
+# Dependencias de Composer
+/vendor/
+
+# Archivos de sesión o caché
+*.log
+*.cache
+*.tmp
+session/
+
+# Archivos subidos por usuarios
+/public/uploads/
+public/images/uploads/
+
+# IDEs y editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de despliegue
+node_modules/
+npm-debug.log
+yarn-error.log

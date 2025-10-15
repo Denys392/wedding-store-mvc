@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/MVC-PHP-nov/app/controllers/ControllerAdmin.php</file>
+            <file>file:/C:/xampp/htdocs/MVC-PHP-nov/app/config/config.php</file>
+            <file>file:/C:/xampp/htdocs/MVC-PHP-nov/app/controllers/ControllerInicio.php</file>
+            <file>file:/C:/xampp/htdocs/MVC-PHP-nov/app/views/public-pages/inicio.php</file>
+            <file>file:/C:/xampp/htdocs/MVC-PHP-nov/app/views/template_public.php</file>
+            <file>file:/C:/xampp/htdocs/MVC-PHP-nov/app/views/public-pages/nosotros.php</file>
+            <file>file:/C:/xampp/htdocs/MVC-PHP-nov/app/views/public-pages/contacto.php</file>
+            <file>file:/C:/xampp/htdocs/MVC-PHP-nov/app/views/public-pages/servicios.php</file>
+            <file>file:/C:/xampp/htdocs/MVC-PHP-nov/app/core/router.php</file>
+            <file>file:/C:/xampp/htdocs/MVC-PHP-nov/app/core/Database.php</file>
+            <file>file:/C:/xampp/htdocs/MVC-PHP-nov/app/views/error.php</file>
+            <file>file:/C:/xampp/htdocs/MVC-PHP-nov/app/controllers/ControllerServicios.php</file>
+            <file>file:/C:/xampp/htdocs/MVC-PHP-nov/app/core/router_public.php</file>
+            <file>file:/C:/xampp/htdocs/MVC-PHP-nov/app/core/router_admin.php</file>
+            <file>file:/C:/xampp/htdocs/MVC-PHP-nov/app/config/database.php</file>
+            <file>file:/C:/xampp/htdocs/MVC-PHP-nov/.htaccess</file>
+            <file>file:/C:/xampp/htdocs/MVC-PHP-nov/app/controllers/ControllerNosotros.php</file>
+            <file>file:/C:/xampp/htdocs/MVC-PHP-nov/app/views/admin-pages/login.php</file>
+            <file>file:/C:/xampp/htdocs/MVC-PHP-nov/app/views/template_admin.php</file>
+            <file>file:/C:/xampp/htdocs/MVC-PHP-nov/app/views/admin-pages/dashboard.php</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,23 @@
+# =====================================
+# .htaccess universal (funciona en XAMPP y InfinityFree)
+# =====================================
+
+# Activa el motor de reescritura
+RewriteEngine On
+
+# Evita listado de directorios
+Options -Indexes
+
+# --- CONFIG LOCAL (XAMPP) ---
+# Si estamos en localhost, redirige a la carpeta /public directamente
+RewriteCond %{HTTP_HOST} ^(localhost) [NC]
+RewriteRule ^$ public/ [L]
+RewriteCond %{HTTP_HOST} ^(localhost) [NC]
+RewriteRule (.*) public/$1 [L]
+
+# --- CONFIG HOSTING (InfinityFree, Hostinger, etc.) ---
+# Si no estamos en localhost, aplica las reglas normales
+RewriteCond %{HTTP_HOST} !^(localhost) [NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ public/index.php?url=$1 [QSA,L]

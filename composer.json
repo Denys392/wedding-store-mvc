@@ -1,0 +1,13 @@
+{
+    "name": "vendor/m-v-c-p-h-p-nov",
+    "description": "Description of project MVC-PHP-nov.",
+    "authors": [
+        {
+            "name": "Denys",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "v6.11.1"
+    }
+}
